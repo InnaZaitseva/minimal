@@ -56,7 +56,7 @@ header nav li a:hover{
 }
 
 .main_banner h1{
-    font-family: 'Montserrat';
+    font-family: 'montserratregular';
     font-style: normal;
     font-weight: 400;
     font-size: 44px;
@@ -67,7 +67,7 @@ header nav li a:hover{
 }
 
 .main_banner p{
-    font-family: 'Vollkorn';
+    font-family: 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -93,7 +93,7 @@ header nav li a:hover{
     text-align: center;
 }
 .main_banner_description p{
-    font-family: 'Vollkorn';
+    font-family: 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -103,7 +103,7 @@ header nav li a:hover{
     margin-bottom: 39px;
 }
 .main_banner_description a{
-    font-family: 'Vollkorn';
+    font-family: 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -114,6 +114,10 @@ header nav li a:hover{
     padding: 13px 34px 20px;
     border: solid 1px #47474F;
     text-decoration: none;
+}
+
+.brands h4{
+    text-transform: uppercase;
 }
 
 footer{
