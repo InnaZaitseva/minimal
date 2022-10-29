@@ -161,22 +161,28 @@ header nav li a:hover{
 }
 
 .recent_projects h4{
-    font: 16px/20px 'Montserrat';
+    font: 16px/20px 'montserratregular';
     font-style: normal;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+    margin-top: 19px;
 }
 
 .recent_projects p{
-    font: 14px/20px 'Vollkorn';
+    font: 14px/20px 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
     text-align: center;
     color: #333333;
+    margin-bottom: 21px;
 }
 
+.recent_projects article{
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
 
 
 footer{
