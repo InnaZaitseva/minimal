@@ -149,7 +149,7 @@ header nav li a:hover{
     margin-bottom: 74px;
 }
 
-.brands img, .recent_projects img {
+.brands img{
     margin-right: 20px;
 }
 
@@ -182,6 +182,8 @@ header nav li a:hover{
 .recent_projects article{
     background: #FFFFFF;
     margin-bottom: 20px;
+    margin-right: 20px;
+
 
 }
 
