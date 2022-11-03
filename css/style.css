@@ -150,7 +150,8 @@ header nav li a:hover{
     margin-bottom: 74px;
 }
 
-.brands img{
+.brands article{
+    max-width: 300px;
 }
 
 .recent_projects{
