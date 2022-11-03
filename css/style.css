@@ -24,7 +24,8 @@ header{ padding: 18px 0;
 .d_flex {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #navbar{
@@ -149,10 +150,6 @@ header nav li a:hover{
     margin-bottom: 74px;
 }
 
-.brands img{
-    margin-right: 20px;
-}
-
 .recent_projects{
     background: #F5F5F5;
     min-height: 1469px;
@@ -182,7 +179,8 @@ header nav li a:hover{
 .recent_projects article{
     background: #FFFFFF;
     margin-bottom: 20px;
-    margin-right: 20px;
+    /*переглянути урок від 31.10. і виправити*/
+    max-width: 300px;
 }
 
 
