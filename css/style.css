@@ -150,6 +150,11 @@ header nav li a:hover{
     margin-bottom: 74px;
 }
 
+.brands img{
+    width: 300px;
+    justify-content: center;
+}
+
 .recent_projects{
     background: #F5F5F5;
     min-height: 1469px;
