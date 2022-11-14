@@ -11,7 +11,7 @@ $('.owl-carousel').owlCarousel({
         },
 
         1000:{
-            items:5
+            items:3
         }
     }
 });
