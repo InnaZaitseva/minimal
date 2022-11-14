@@ -137,7 +137,7 @@ header nav li a:hover{
     height: 2px;
     background-color: rgba(0, 0, 0, 0.09);
     margin: auto;
-    margin-top: 28px;
+    margin-top: 28px ;
     margin-bottom: 43px;
 }
 
@@ -152,6 +152,7 @@ header nav li a:hover{
 
 .brands article{
     max-width: 300px;
+    display: inline-block;
 }
 
 .recent_projects{
