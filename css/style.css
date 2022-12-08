@@ -120,7 +120,7 @@ header nav li a:hover{
     margin-bottom: 20px;
 }
 
-.brands h2, .recent_projects h2 {
+.brands h2, .recent_projects h2, .our_team {
     font: 23px/36px 'montserratregular';
     font-style: normal;
     font-weight: 400;
@@ -130,7 +130,7 @@ header nav li a:hover{
     margin-top: 79px;
   }
 
-.brands h2:after, .recent_projects h2:after{
+.brands h2:after, .recent_projects h2:after, .our_team h2:after{
     content: "";
     display: block;
     width: 80px;
