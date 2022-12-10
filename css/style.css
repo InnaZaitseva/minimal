@@ -128,15 +128,7 @@ header nav li a:hover{
     text-transform: uppercase;
     color: #333333;
     margin-top: 79px;
-} {
-    font: 23px/36px 'montserratregular';
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333333;
-    margin-top: 79px;
-  }
+}
 .brands h2:after, .recent_projects h2:after, .team h2:after, .contacts h2:after{
     content: "";
     display: block;
@@ -217,16 +209,7 @@ header nav li a:hover{
     min-height: 511px;
     position: relative;
     }
-.feedback .container{}
-.sub_container{
 
-    max-width: 893px;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    padding-top: 140px;
-}
 .img_quotes {
     position: absolute;
     top:0;
@@ -235,17 +218,23 @@ header nav li a:hover{
     padding-top: 50px;
 
 }
-.feedback#1{
-    max-width: 338px;
+.sub_container{
+    margin: auto;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+    padding-top: 140px;
+}
+.feedback1{
+    flex-basis: 446px;
     min-height: 215px;
     text-align: center;
-    margin: auto;
     border-right:2px solid rgba(0, 0, 0, 0.04);
 }
-.feedback#2{
-    max-width: 338px;
+.feedback2 {
+    flex-basis: 446px;
     text-align: center;
-    margin: auto;}
+}
 
 .feedback h2 {
     font: 26px/33px 'Vollkorn', serif;
@@ -254,17 +243,9 @@ header nav li a:hover{
     text-align: center;
     color: #333333;
     height: 99px;
+    margin-bottom: 24px;
 }
-/*.feedback h2:after{*/
-/*    content: "";*/
-/*    display: block;*/
-/*    width: 2px;*/
-/*    height: 215px;*/
-/*    left: 49%;*/
-/*    top: 146px;*/
-/*    background: rgba(0, 0, 0, 0.04);*/
-/*    position: absolute;*/
-/*}*/
+
 .feedback p{
     font: 14px/20px 'montserratregular';
     font-style: normal;
@@ -273,9 +254,7 @@ header nav li a:hover{
     text-transform: uppercase;
     color: #ABABAB;
     margin-top: 10px;
-    margin-bottom: 98px;
-}
-
+    }
 
 .contacts{
     min-height: 517px;
@@ -283,10 +262,17 @@ header nav li a:hover{
     background-size: cover;
     display: flex;
 }
+.sub_cont_contact{
+    width: 960px;
+    margin: auto;
+    justify-content: center;
+}
 .contacts article{
-    max-width: 320px;
+    flex-basis: 320px;
+    align-content: stretch;
     margin-bottom: 69px;
-    text-align: center;}
+    text-align: center;
+    }
 
 .contacts h4 {
     font: 16px/20px 'montserratregular';
@@ -295,8 +281,47 @@ header nav li a:hover{
     font-style: normal;
     font-weight: 400;
     color: #333333;
-    margin-top: 26px;
     margin-bottom: 20px;}
+.contact_icon{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 26px;
+}
+.socials{
+    list-style: none;
+    align-items: center;
+}
+.socials li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 17px/20px 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #212121;
+    margin-bottom: 11px;
+}
+.socials li:before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    margin-right: 9px;
+}
+.socials li:nth-child(1):before{
+    background-image: url(../images/icon_fb.svg);
+}
+.socials li:nth-child(2):before{
+    background-image: url(../images/icon_twitter.svg);
+}
+.socials li:nth-child(3):before{
+    background-image: url(../images/icon_linkedin.svg);
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+
 
 footer{
     padding: 69px 0 75px 0; background-color: #000000;
