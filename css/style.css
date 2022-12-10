@@ -20,6 +20,7 @@ header{ padding: 18px 0;
 .container {
     max-width: 940px;
     margin: auto;
+
 }
 .d_flex {
     display: flex;
@@ -119,7 +120,15 @@ header nav li a:hover{
     margin-top: 32px;
     margin-bottom: 20px;
 }
-.brands h2, .recent_projects h2, .team h2 {
+.brands h2, .recent_projects h2, .team h2, .contacts h2 {
+    font: 23px/36px 'montserratregular';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 79px;
+} {
     font: 23px/36px 'montserratregular';
     font-style: normal;
     font-weight: 400;
@@ -128,7 +137,7 @@ header nav li a:hover{
     color: #333333;
     margin-top: 79px;
   }
-.brands h2:after, .recent_projects h2:after, .team h2:after{
+.brands h2:after, .recent_projects h2:after, .team h2:after, .contacts h2:after{
     content: "";
     display: block;
     width: 80px;
@@ -207,28 +216,55 @@ header nav li a:hover{
     background: #F5F5F5;
     min-height: 511px;
     position: relative;
-}
-.feedback .container div{
-    background-color: #8BCAC3;
-    position: absolute;
-    bottom: auto;
-}
-.feedback article{
-    display: inline-block;
-    min-height: 215px;
-    max-width: 447px;
+    }
+.feedback .container{}
+.sub_container{
+
+    max-width: 893px;
+    margin: auto;
+    align-items: center;
     text-align: center;
+    justify-content: space-around;
+    padding-top: 140px;
+}
+.img_quotes {
+    position: absolute;
+    top:0;
+    left:47%;
+    margin: auto;
+    padding-top: 50px;
 
 }
-.feedback h2{
+.feedback#1{
+    max-width: 338px;
+    min-height: 215px;
+    text-align: center;
+    margin: auto;
+    border-right:2px solid rgba(0, 0, 0, 0.04);
+}
+.feedback#2{
+    max-width: 338px;
+    text-align: center;
+    margin: auto;}
+
+.feedback h2 {
     font: 26px/33px 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
     text-align: center;
     color: #333333;
     height: 99px;
-
 }
+/*.feedback h2:after{*/
+/*    content: "";*/
+/*    display: block;*/
+/*    width: 2px;*/
+/*    height: 215px;*/
+/*    left: 49%;*/
+/*    top: 146px;*/
+/*    background: rgba(0, 0, 0, 0.04);*/
+/*    position: absolute;*/
+/*}*/
 .feedback p{
     font: 14px/20px 'montserratregular';
     font-style: normal;
@@ -240,6 +276,27 @@ header nav li a:hover{
     margin-bottom: 98px;
 }
 
+
+.contacts{
+    min-height: 517px;
+    background-image: url("../images/img_bcg_contacts.jpg");
+    background-size: cover;
+    display: flex;
+}
+.contacts article{
+    max-width: 320px;
+    margin-bottom: 69px;
+    text-align: center;}
+
+.contacts h4 {
+    font: 16px/20px 'montserratregular';
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 26px;
+    margin-bottom: 20px;}
 
 footer{
     padding: 69px 0 75px 0; background-color: #000000;
